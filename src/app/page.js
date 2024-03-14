@@ -1,4 +1,14 @@
+"use client"
+import {useEffect} from 'react'
+
+
+
 export default function Home() {
+
+  useEffect(()=>{
+    localStorage.setItem('receitas', [])
+  },[])
+
   return (
     <div>
       <div style={{
@@ -26,7 +36,7 @@ export default function Home() {
           fontSize: '32pt',
           textDecoration: 'none',
           color: 'black',
-        }} href="#">ENTRAR</a>
+        }} href="galery">ENTRAR</a>
       </div>
     </div>
   );
