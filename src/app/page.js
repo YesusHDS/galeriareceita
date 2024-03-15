@@ -10,7 +10,7 @@ export default function Home() {
   },[])
 
   return (
-    <div>
+    <div style={{margin: 0, padding: 0}}>
       <div style={{
         border: '2px solid black',
         width: '50%',
