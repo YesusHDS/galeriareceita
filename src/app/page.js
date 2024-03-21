@@ -1,13 +1,4 @@
-"use client"
-import {useEffect} from 'react'
-
-
-
 export default function Home() {
-
-  useEffect(()=>{
-    localStorage.setItem('receitas', [])
-  },[])
 
   return (
     <div style={{margin: 0, padding: 0}}>
